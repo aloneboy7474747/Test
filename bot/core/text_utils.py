@@ -23,8 +23,7 @@ MANUAL_ANILIST_NAMES = {
 }
 
 CAPTION_FORMAT = """
-<blockquote><b>❐<i> {title} </i></b></blockquote>
-〄 {title}
+<blockquote><b>〄 {title} </b></blockquote>
 <b>╭━━━━━━━━━━━━━━━━━━━━━━
 <b>➣ Sᴛᴀᴛᴜs: {status}</b>
 <b>➣ Sᴇᴀsᴏɴ: {anime_season}</b>
@@ -32,22 +31,19 @@ CAPTION_FORMAT = """
 <b>➣ Aᴜᴅɪᴏ: {lang}</b>
 <b>➣ Qᴜᴀʟɪᴛʏ: 480ᴘ, 720ᴘ, 1080ᴘ</b>
 <b>╰━━━━━━━━━━━━━━━━━━━━━━
-<blockquote><b>≡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/Zenkai_Network'>ᴢᴇɴᴋᴀɪ</a></b></blockquote>
+<blockquote><b>≡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/Anime_Rage_Official'>𝐀ɴɪᴍᴇ 𝐑ᴀɢᴇ</a></b></blockquote>
 """
 
 MOVIE_CAPTION = """
-<blockquote><b>❐<i> {title} </i></b></blockquote>
-<b>✦─━━━━━━━━━━─✦</b>
-<b>›› Sᴇᴀꜱᴏɴ: {anime_season}</b>
-<b>›› Eᴘɪsᴏᴅᴇ: {ep_no}</b>
-<b>››Qᴜᴀʟɪᴛʏ : 480ᴘ | 720ᴘ | 1080ᴘ</b>
-<b>›› Lᴀɴɢᴜᴀɢᴇ: {lang}</b>
-<b>✦─━━━━━━━━━━─✦</b>
-<blockquote><b>≡ Sᴛᴀᴛᴜꜱ: {status}</b></blockquote>
-<blockquote><b>≡ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/OtakuFlix_Net'>ᴏᴛᴀᴋᴜғʟɪx</a></b></blockquote>
-<b>✦─━━━━━━━━━━─✦</b>
-<blockquote><b>≡ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/OtakuFlix_Net'>ᴏᴛᴀᴋᴜғʟɪx</a></b></blockquote>
-<blockquote><b>≡ ᴜꜱᴇ <a href='https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad'>vlc player</a> or <a href='https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.ad'>mx player</a> ᴛᴏ ᴄʜᴀɴɢᴇ ᴀᴜᴅɪᴏ ᴀɴᴅ ꜱᴜʙᴛɪᴛʟᴇꜱ ꜰᴏʀ ᴀ ʙᴇᴛᴛᴇʀ ᴠɪᴇᴡɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.</b></blockquote>
+<blockquote><b>〄 {title} </b></blockquote>
+<b>╭━━━━━━━━━━━━━━━━━━━━━━
+<b>➣ Sᴛᴀᴛᴜs: {status}</b>
+<b>➣ Sᴇᴀsᴏɴ: {anime_season}</b>
+<b>➣ Eᴘɪsᴏᴅᴇ: {ep_no}</b>
+<b>➣ Aᴜᴅɪᴏ: {lang}</b>
+<b>➣ Qᴜᴀʟɪᴛʏ: 480ᴘ, 720ᴘ, 1080ᴘ</b>
+<b>╰━━━━━━━━━━━━━━━━━━━━━━
+<blockquote><b>≡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/Anime_Rage_Official'>𝐀ɴɪᴍᴇ 𝐑ᴀɢᴇ</a></b></blockquote>
 """
 
 MANGA_CAPTION_FORMAT = """<blockquote><b>✦ {title} ✦</b></blockquote>
