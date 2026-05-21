@@ -127,7 +127,7 @@ async def ongoing_animes(client, message):
                 html_content = await res.text()
                 tree = lh.fromstring(html_content)
                 
-                schedule_text = "<b><blockquote>Today's Anime Schedule:</blockquote></b>\n\n"
+                schedule_text = "<blockquote>✦ 𝗧𝗢𝗗𝗔𝗬 | 𝗔𝗡𝗜𝗠𝗘 𝗦𝗖𝗛𝗘𝗗𝗨𝗟𝗘</blockquote>\n\n"
 
                 day_sections = tree.xpath(f"//li[contains(text(), '{current_day}')]")
                 if day_sections:
@@ -181,7 +181,7 @@ async def ongoing_animes(client, message):
             await message.reply_text("<blockquote><b>No anime schedule found for today.</b></blockquote>")
             return
         
-        text = "<blockquote><b>Today's Anime Schedule</b></blockquote>\n\n"
+        text = "<blockquote>✦ 𝗧𝗢𝗗𝗔𝗬 | 𝗔𝗡𝗜𝗠𝗘 𝗦𝗖𝗛𝗘𝗗𝗨𝗟𝗘</blockquote>\n\n"
         for i in aniContent:
             try:
                 aname = TextEditor(i["title"])
@@ -247,7 +247,7 @@ async def upcoming_animes():
 
                     html_content = await res.text()
                     tree = lh.fromstring(html_content)
-                    text = "<b><blockquote>Today's Anime Schedule</blockquote></b>\n\n"
+                    text = "<blockquote>✦ 𝗧𝗢𝗗𝗔𝗬 | 𝗔𝗡𝗜𝗠𝗘 𝗦𝗖𝗛𝗘𝗗𝗨𝗟𝗘</blockquote>\n\n"
 
                     day_sections = tree.xpath(f"//li[contains(text(), '{current_day}')]")
                     if day_sections:
@@ -288,7 +288,7 @@ async def upcoming_animes():
                         await reply_message.reply_text("No anime schedule found for today.")
                     return False
 
-                text = "<blockquote><b>Today's Anime Releases Schedule:</b></blockquote>\n\n"
+                text = "<blockquote>✦ 𝗧𝗢𝗗𝗔𝗬 | 𝗔𝗡𝗜𝗠𝗘 𝗥𝗘𝗟𝗘𝗔𝗦𝗘𝗦 𝗦𝗖𝗛𝗘𝗗𝗨𝗟𝗘</blockquote>\n\n"
                 for i in aniContent:
                     try:
                         aname = TextEditor(i["title"])
